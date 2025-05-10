@@ -131,7 +131,6 @@
     </section>
 
     <!-- About Section -->
-    {{-- <section id="about" class="-mt-20 py-20 bg-gray-900 px-4"> --}}
     <section id="about" class="-mt-7 py-20 bg-gray-900 px-4">
         <div class="container mx-auto max-w-5xl">
             <div class="text-center mb-12">
@@ -173,16 +172,8 @@
                         </p>
 
                         <!-- Personal Info -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                            <div class="flex items-center">
-                                <div class="w-10 h-10 rounded-full bg-teal-400/20 flex items-center justify-center mr-3">
-                                    <i class="fas fa-calendar text-teal-400"></i>
-                                </div>
-                                <div>
-                                    <p class="text-gray-400 text-sm">Birth Date</p>
-                                    <p class="text-white">March 19, 2003</p>
-                                </div>
-                            </div>
+                        <div class="flex flex-col gap-5 mb-6">
+                            <!-- Email pada baris sendiri -->
                             <div class="flex items-center">
                                 <div class="w-10 h-10 rounded-full bg-teal-400/20 flex items-center justify-center mr-3">
                                     <i class="fas fa-envelope text-teal-400"></i>
@@ -192,22 +183,28 @@
                                     <p class="text-white">muhammadkamilcsl19@gmail.com</p>
                                 </div>
                             </div>
-                            <div class="flex items-center">
-                                <div class="w-10 h-10 rounded-full bg-teal-400/20 flex items-center justify-center mr-3">
-                                    <i class="fas fa-map-marker-alt text-teal-400"></i>
+
+                            <!-- Location dan Freelance pada baris kedua -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <div class="flex items-center">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-teal-400/20 flex items-center justify-center mr-3">
+                                        <i class="fas fa-map-marker-alt text-teal-400"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-gray-400 text-sm">Location</p>
+                                        <p class="text-white">Aceh, Indonesia</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p class="text-gray-400 text-sm">Location</p>
-                                    <p class="text-white">Aceh, Indonesia</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="w-10 h-10 rounded-full bg-teal-400/20 flex items-center justify-center mr-3">
-                                    <i class="fas fa-laptop-code text-teal-400"></i>
-                                </div>
-                                <div>
-                                    <p class="text-gray-400 text-sm">Freelance</p>
-                                    <p class="text-white">Available</p>
+                                <div class="flex items-center">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-teal-400/20 flex items-center justify-center mr-3">
+                                        <i class="fas fa-laptop-code text-teal-400"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-gray-400 text-sm">Freelance</p>
+                                        <p class="text-white">Available</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
