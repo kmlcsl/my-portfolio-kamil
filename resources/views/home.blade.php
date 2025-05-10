@@ -13,10 +13,9 @@
 
     <!-- Hero Section -->
     <section
-        class="h-screen bg-gradient-to-br from-gray-900 via-indigo-950 to-slate-900 flex flex-col justify-center items-center px-4 relative overflow-hidden">
-        <br><br>
+        class="min-h-screen pt-16 md:pt-20 bg-gradient-to-br from-gray-900 via-indigo-950 to-slate-900 flex flex-col justify-center items-center px-4 relative overflow-hidden">
         <!-- Hero Section with Animation and Profile -->
-        <div class="text-center max-w-5xl mx-auto z-10">
+        <div class="text-center max-w-5xl mx-auto z-10 py-12 md:py-0">
             <!-- Profile Photo with Animation -->
             <div class="mb-8 animate__animated animate__fadeIn">
                 <div class="relative inline-block">
@@ -58,9 +57,9 @@
 
             <!-- Social Media with Animation -->
             <div class="flex justify-center space-x-4 mb-8 animate__animated animate__fadeInUp animate__delay-2s">
-                <a href="https://github.com/kmlcsl" target="_blank"
-                    class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-gray-700 transition-all transform hover:scale-110">
-                    <i class="fab fa-github text-lg md:text-xl"></i>
+                <a href="https://gitlab.com/muhammadkamilcsl19" target="_blank"
+                    class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gradient-to-r from-orange-500 to-red-600 flex items-center justify-center text-white hover:opacity-90 transition-all transform hover:scale-110">
+                    <i class="fab fa-gitlab text-lg md:text-xl"></i>
                 </a>
                 <a href="https://linkedin.com/in/muhammad-kamil-715610335" target="_blank"
                     class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-blue-700 flex items-center justify-center text-white hover:bg-blue-600 transition-all transform hover:scale-110">
