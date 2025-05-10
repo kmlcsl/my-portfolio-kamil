@@ -110,7 +110,7 @@
                             </div>
                             <div>
                                 <h3 class="text-white font-medium">Location</h3>
-                                <p class="text-gray-300">Aceh, North Sumatra, Indonesia</p>
+                                <p class="text-gray-300">Aceh, Aceh Barat, Indonesia</p>
                             </div>
                         </div>
 
@@ -187,7 +187,7 @@
                 <div class="w-full h-64 bg-gray-700 rounded-lg flex items-center justify-center">
                     <p class="text-gray-400 text-center px-4">
                         <i class="fas fa-map-marked-alt text-4xl mb-4 text-teal-400"></i><br>
-                        Map of Aceh, North Sumatra<br>
+                        Map of Aceh, Aceh Barat<br>
                         <span class="text-sm">(Replace with actual map iframe or image)</span>
                     </p>
                 </div>
