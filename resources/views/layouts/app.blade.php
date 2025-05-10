@@ -24,8 +24,9 @@
         }
     </script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <!-- Hapus atau komentari baris mix ini karena sudah menggunakan Vite -->
     {{-- <link href="{{ mix('/css/app.css') }}" rel="stylesheet"> --}}
-<script src="{{ mix('/js/app.js') }}" defer></script>
+    {{-- <script src="{{ mix('/js/app.js') }}" defer></script> --}}
 </head>
 
 <body class="bg-gray-900 text-white font-sans overflow-hidden">
